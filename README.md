@@ -11,6 +11,7 @@ badge on the most popular plan.
 and log throughput requirements into a form with numeric bounds to verify tier compatibility. 
 ● Story 5 (API Provisioning Lead Capture): As a developer, I want to submit a pre-registration 
 form with required fields to receive API sandbox provisioning details.  
+
 Step 1: User lands on the homepage, sees the navigation links, and the high contrast CTA 
 button. 
 Step 2: User scrolls or clicks from the navigation link to the feature grid. 
