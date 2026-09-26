@@ -28,6 +28,8 @@ html {
   line-height: 1.8;
 }
 
+/*button classes */
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -85,4 +87,31 @@ html {
 .btn-sm {
   padding: 0.7rem 1.2rem;
   font-size: 1.114rem;
+}
+
+/*design layout with for the devpulse webpage */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2.2rem;
+  background-color: rgba(5, 15, 67, 0.5);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.brand-logo {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-main);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.logo-icon {
+  color: var(--primary);
 }
