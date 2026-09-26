@@ -1,12 +1,12 @@
 :root {
   --bg-dark: #090d14;
-  --bg-card: #ff6a0700;
-  --primary: #cc2be800;
-  --primary-hover: #b118e8ba;
-  --text-main: #f0efef73;
-  --text-muted: #5e585873;
-  --border-color: #e620ff73;
-  --accent: #e6202073;
+  --bg-card: #111345;
+  --primary: #66634e;
+  --primary-hover: #4f46e3;
+  --text-main: #f8fbaf;
+  --text-muted: #9ca3af;
+  --border-color: #375151;
+  --accent: #10a983;
   --font-family:
     -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
   --transition-speed: 0.5s;
