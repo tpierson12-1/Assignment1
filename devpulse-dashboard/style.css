@@ -1,5 +1,5 @@
 :root {
-  --bg-light: #ffffff;
+  --bg-dark: #090d14;
   --bg-card: #ff6a0700;
   --primary: #cc2be800;
   --primary-hover: #b118e8ba;
@@ -23,7 +23,7 @@
 html {
   scroll-behavior: smooth;
   font-family: var(--font-family);
-  background-color: var(--bg-light);
+  background-color: var(--bg-dark);
   color: var(--text-main);
   line-height: 1.8;
 }
