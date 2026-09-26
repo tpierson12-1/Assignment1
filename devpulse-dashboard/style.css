@@ -208,7 +208,7 @@ html {
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 8px;
   transition:
     transform var(--transition-speed),
     border-color var(--transition-speed);
@@ -235,14 +235,21 @@ html {
 }
 
 .pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.pricing-card {
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
-  padding: 2.7rem 2.5rem;
-  border-radius: 9px;
+  padding: 1.5rem 1rem;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
-  position: fixed;
-  transition: var(--transition-speed);
+  position: relative;
+  transition: transform var(--transition-speed);
 }
 
 /* Visualize the recommend tier */
