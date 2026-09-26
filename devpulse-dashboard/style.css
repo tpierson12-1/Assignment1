@@ -89,7 +89,7 @@ html {
   font-size: 1.114rem;
 }
 
-/*design layout with for the devpulse webpage */
+/*design layout for the devpulse webpage */
 .site-header {
   position: sticky;
   top: 0;
@@ -114,4 +114,64 @@ html {
 
 .logo-icon {
   color: var(--primary);
+}
+
+/* Navigation classes */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.nav-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.86rem;
+  transition: color var(--transition-speed);
+}
+
+.nav-link:hover {
+  color: var(--text-main);
+}
+
+/* Hero Section layout */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1.7rem;
+  padding: 5rem 1.4rem 3rem 1.4rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.badge-pill {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--accent);
+  padding: 0.25rem 0.75rem;
+  background-color: rgba(20, 199, 37, 0.8);
+  border: 1px solid rgba(20, 199, 37, 0.6);
+  border-radius: 9999px;
+  margin-bottom: 1.8rem;
+}
+
+.hero-title {
+  font-size: 4rem;
+  line-height: 1.25;
+  font-weight: 900;
+  margin-bottom: 1.3rem;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: var(--text-muted);
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+}
+
+.cta-group {
+  display: flex;
+  gap: 1.1rem;
 }
