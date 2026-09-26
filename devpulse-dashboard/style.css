@@ -175,3 +175,126 @@ html {
   display: flex;
   gap: 1.1rem;
 }
+
+/*Features and Pricing Section */
+.section-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 6rem 1.9rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 750;
+  margin-bottom: 0.7rem;
+}
+
+.section-subtitle {
+  color: var(--text-muted);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.9rem;
+}
+
+.feature-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  border-radius: 10px;
+  transition:
+    transform var(--transition-speed),
+    border-color var(--transition-speed);
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--primary);
+}
+
+.feature-icon {
+  font-size: 1.95rem;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-desc {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.pricing-grid {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 2.7rem 2.5rem;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  transition: var(--transition-speed);
+}
+
+/* Visualize the recommend tier */
+.pricing-card.featured {
+  border: 2px solid var(--primary);
+  background-color: rgba(95, 103, 250, 0.02);
+  transform: scale(1.06);
+}
+
+.popular-tag {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-65%);
+  background-color: var(--primary);
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.3rem 0.65rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+}
+
+.tier-name {
+  font-size: 1.7rem;
+  margin-bottom: 0.15rem;
+}
+
+.tier-desc {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 1.4rem;
+}
+
+.tier-price {
+  margin-bottom: 1.6rem;
+}
+
+.price-val {
+  font-size: 3.4rem;
+  font-weight: 850;
+}
+
+.tier-features {
+  list-style-type: none;
+  margin-bottom: 2.3rem;
+  flex-grow: 1;
+}
+
+.tier-features li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--accent);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
